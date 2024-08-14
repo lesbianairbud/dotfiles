@@ -7,23 +7,14 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
 
-eval "$(starship init bash)"
+PS1='╔═ [\w]\n╚════║ '
 
-eval "$(starship init bash)"
-
-cat ~/.cache/wal/sequences
-
-source ~/.cache/wal/colors-tty.sh
-
-source /etc/shell-mommy.sh
-
-export PATH=$PATH:/home/wotthefluff/.spicetify
+(wal -i Pictures/Special/"Creature City Wallpaper.jpg")
+clear
 
 alias clock='tty-clock -Dc'
 alias sl='ls'
 alias why='nano ~/.config/hypr/hyprland.conf'
 alias conf='cd ~/.config'
 alias etc='cd /etc'
-
