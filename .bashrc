@@ -10,7 +10,7 @@ alias grep='grep --color=auto'
 
 PS1='╔═ [\w]\n╚════║ '
 
-(wal -i Pictures/Special/"Creature City Wallpaper.jpg")
+(wal -i Pictures/Special/narcisuswp.jpg)
 clear
 
 alias clock='tty-clock -Dc'
